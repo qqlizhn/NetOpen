@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="netOpen">
+</Property><Property Name="Solution File" Value="C:\Users\slash\Documents\Visual Studio 2010\Projects\netOpen\netOpen.sln">
+</Property><Property Name="Date" Value="6 травня 2010 р.">
+</Property><Property Name="Time" Value="16:21">
+</Property></Properties><Event ErrorLevel="0" Project="netOpen" Source="netOpen\netOpen.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="netOpen" Source="netOpen\netOpen.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="netOpen.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="netOpen.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="netOpen" Source="netOpen\netOpen.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

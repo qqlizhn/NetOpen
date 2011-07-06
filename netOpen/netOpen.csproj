@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6ED78C4D-F6DA-41FE-861D-C21089453812}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>netOpen</RootNamespace>
+    <AssemblyName>netOpen</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Earth64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes&amp;Controls\MyTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\CopyF.cs" />
+    <Compile Include="Copyer.cs" />
+    <Compile Include="CopyInfo.cs" />
+    <Compile Include="OneFuncWindows\NonGlassAb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\NonGlassAb.Designer.cs">
+      <DependentUpon>NonGlassAb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneFuncWindows\AddRedact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\AddRedact.Designer.cs">
+      <DependentUpon>AddRedact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneFuncWindows\GlassAb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\GlassAb.Designer.cs">
+      <DependentUpon>GlassAb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\IPctrl\DotControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\IPctrl\FieldChangedEventArgs.cs" />
+    <Compile Include="Classes&amp;Controls\IPctrl\FieldControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\IPctrl\IPAddressControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\IPctrl\IPAddressControlDesigner.cs" />
+    <Compile Include="Classes&amp;Controls\IPctrl\NativeMethods.cs" />
+    <Compile Include="OneFuncWindows\ShareSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\ShareSearch.Designer.cs">
+      <DependentUpon>ShareSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OptData.cs" />
+    <Compile Include="OptForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptForm.Designer.cs">
+      <DependentUpon>OptForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+    </Compile>
+    <Compile Include="OneFuncWindows\SinglePCAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\SinglePCAdd.Designer.cs">
+      <DependentUpon>SinglePCAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\Slide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\Slide.designer.cs">
+      <DependentUpon>Slide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneFuncWindows\TabTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\TabTest.Designer.cs">
+      <DependentUpon>TabTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OneFuncWindows\ZaklAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneFuncWindows\ZaklAdd.Designer.cs">
+      <DependentUpon>ZaklAdd.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="OneFuncWindows\AddRedact.resx">
+      <DependentUpon>AddRedact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneFuncWindows\GlassAb.resx">
+      <DependentUpon>GlassAb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneFuncWindows\NonGlassAb.resx">
+      <DependentUpon>NonGlassAb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneFuncWindows\ShareSearch.resx">
+      <DependentUpon>ShareSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneFuncWindows\TabTest.resx">
+      <DependentUpon>TabTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneFuncWindows\ZaklAdd.resx">
+      <DependentUpon>ZaklAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptForm.resx">
+      <DependentUpon>OptForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneFuncWindows\SinglePCAdd.resx">
+      <DependentUpon>SinglePCAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes&amp;Controls\Temp.resx">
+      <DependentUpon>Temp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Classes&amp;Controls\Slide.resx">
+      <DependentUpon>Slide.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="OptData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>OptData.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\Shares.cs" />
+    <Compile Include="Classes&amp;Controls\Temp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes&amp;Controls\Temp.Designer.cs">
+      <DependentUpon>Temp.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+    <None Include="OptData.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>OptData.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\znach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Earth200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Earth64.ico" />
+    <None Include="Resources\ico172.ico" />
+    <None Include="Resources\ico16.ico" />
+    <None Include="Resources\Folder Open1.png" />
+    <None Include="Resources\singleAdd.ico" />
+    <None Include="Resources\search.ico" />
+    <None Include="Resources\opt.ico" />
+    <None Include="Resources\close.ico" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\zakl.png" />
+    <None Include="Resources\zakl64.png" />
+    <None Include="Resources\singleAdd.png" />
+    <None Include="Resources\scan.png" />
+    <None Include="Resources\opt.png" />
+    <None Include="Resources\opt64.png" />
+    <None Include="Resources\daip64.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\arrows64.png" />
+    <None Include="Resources\Folder Open.png" />
+    <None Include="Resources\Folder Open.ico" />
+    <None Include="Resources\Folder Closed.png" />
+    <None Include="Resources\ico1461.ico" />
+    <None Include="Resources\ico146.ico" />
+    <None Include="Resources\bigX.png" />
+    <None Include="Resources\x2.png" />
+    <None Include="Resources\x.png" />
+    <None Include="Resources\exitB.png" />
+    <None Include="Resources\Button Cancel_.png" />
+    <None Include="Resources\Button Add_.png" />
+    <None Include="Resources\Button Cancel.png" />
+    <None Include="Resources\Button Add.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

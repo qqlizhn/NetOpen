@@ -1,0 +1,54 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="netOpen" GeneratedClassName="OptData">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShowHidenRes" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PingBufferLen" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="RememberPClist" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PingWaitTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="PingPacketFragment" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ScanThreadAmount" Type="System.Byte" Scope="User">
+      <Value Profile="(Default)">254</Value>
+    </Setting>
+    <Setting Name="change" Type="System.Windows.Forms.ListViewItem" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Add" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OptForm" Type="System.Windows.Forms.Form" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainForm" Type="System.Windows.Forms.Form" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="diapListH" Type="System.Windows.Forms.ListView" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DiapCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="StatusBarVisible" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ZaklData" Type="System.Windows.Forms.ToolStripMenuItem" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CurActiveItem" Type="System.Windows.Forms.ListViewItem" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NotifyMe" Type="System.Windows.Forms.NotifyIcon" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
