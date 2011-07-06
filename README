@@ -1,6 +1,17 @@
-#NetOpen
-##LAN browser
+NetOpen
+LAN browser
 
 It's my first serious project using C#.
 
-Th
+This program let you to get easy access to network shared resources. 
+
+OS: Windows XP, Vista, 7
+Requires .NET Framework 2+ to work
+
+Features:
+*configurable IP-scan diapasons
+*fast net scan (multi-thread)
+*bookmarks for favorite resources
+*ability to search over resource names and files (1 subdirectory level)
+*multiple tab-view interface model
+
