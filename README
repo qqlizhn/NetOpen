@@ -3,7 +3,7 @@ LAN browser
 
 It's my first serious project using C#.
 
-This program let you to get easy access to network shared resources. 
+This program let you get easy access to network shared resources. 
 
 OS: Windows XP, Vista, 7
 Requires .NET Framework 2+ to work
